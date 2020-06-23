@@ -13,6 +13,6 @@ puts "----------"
 puts @store1.name
 puts @store2.annual_revenue
 
-@store1.update(name: 'Yaletown')
+@store1.update(name: 'Expo')
 puts @store1.name
 
