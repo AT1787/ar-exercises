@@ -19,4 +19,5 @@ puts "----------"
 
 @store5 = Store.find_by(id:5)
 
-@store5.employees.create(first_name: "Andy", last_name: "O'Shae", hourly_rate: 70) 
+@store5.employees.create(first_name: "Andy", last_name: "O'Shae", hourly_rate: 70)
+@store5.employees.create(last_name: "Jackson", hourly_rate: 70)
